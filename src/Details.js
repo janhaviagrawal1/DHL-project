@@ -7,7 +7,7 @@ function Details(props) {
   useEffect(() => {
     setDisplayList(props.listOfItems);
   }, []);
-  console.log("list", displayList);
+
   return (
     <div>
       {displayList && displayList.payload && (
